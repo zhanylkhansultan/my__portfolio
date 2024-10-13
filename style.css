@@ -133,12 +133,15 @@ a{
 }
 
 .quote__wrapper {
+    margin: 0 auto;
     display: flex;
     align-items: center;
+    justify-content: center;
     color: #888;
     font-size: 1.5rem;
     font-style: italic;
     position: relative;
+    width: 80%;
 }
 
 .quote__mark {
@@ -1620,7 +1623,8 @@ footer h3 {
     }
 
     .main__rectangle img {
-        width: 200px;
+        width: 250px;
+        height: 300px;
     }
 
     .main__btn {
